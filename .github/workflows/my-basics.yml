@@ -10,16 +10,14 @@ on:
 
 jobs:
  my_testing:
-    runs-on: ubuntu latest
-    
-    steps:
-    - name: Print Hello Message
-      run : echo "Hello World from testingjob"
+   runs-on: ubuntu latest
+   steps:
+   - name: Print Hello Message
+     run : echo "Hello World from testingjob"
     
     
  my_deploy:
-    runs-on: ubuntu-latest
-    
-     steps:
-     - name: Print Hello Message
-       run : echo "Hello World from Deploy job"
+   runs-on: ubuntu-latest
+   steps:
+   - name: Print Hello Message
+     run : echo "Hello World from Deploy job"
